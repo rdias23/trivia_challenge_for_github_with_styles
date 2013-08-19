@@ -1,12 +1,17 @@
+<div class="end">
+
 <h1>Quiz Results</h1>
 <p id="question">You answered correctly <%= @correct %> out of <%= @total %> questions.</p>
 
 <p> You answered <%= @score %>% of the questions correctly! </p>
 
 
-<%= form_tag({:controller => "quiz", :action => "index"}, :method => "get") do %>
+<%= form_tag({:controller => "home", :action => "index"}, :method => "get") do %>
   <div class="center">
-	 <%= submit_tag("Take another quiz", :class => "submit") %>
+	 <%= submit_tag("Take Me Home", :class => "submit") %>
   </div>
 <% end %>
-<p> <%= link_to "Home", home_index_path %> </p>
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+</div>

@@ -169,6 +169,13 @@ table {
 	background-color: white;
 }
 
+table.maester_table, table.archmaester_table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
 .box {
         background-color: red;
 }
@@ -187,4 +194,55 @@ table {
         margin: 0 auto;
         width: auto;
 	text-align: center;
-}	
+}
+
+.question {
+	background-color: black;
+        background-image: url(/images/bg_page2.png);
+        background-repeat: repeat-y;
+        background-position: center top;
+        font-size: 24px;
+        padding: 0;
+        margin: 0 auto;
+        width: auto;
+        text-align: center;
+}
+
+.answer {
+        background-color: black;
+        background-image: url(/images/bg_page2.png);
+        background-repeat: repeat-y;
+        background-position: center top;
+        font-size: 24px;
+        padding: 0;
+        margin: 0 auto;
+        width: auto;
+        text-align: center;
+}
+
+.end {
+        background-color: black;
+        background-image: url(/images/bg_page2.png);
+        background-repeat: repeat-y;
+        background-position: center top;
+        font-size: 24px;
+        padding: 0;
+        margin: 0 auto;
+        width: auto;
+        text-align: center;
+}
+
+.index {
+	font-size: 24px;
+        padding: 0;
+        margin: 0 auto;
+        width: 500px;
+        text-align: center;
+}
+
+.center {
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+#last_score { background-color: #64de89; }

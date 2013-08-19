@@ -110,6 +110,8 @@ class ChallengeArchmaesterController < ApplicationController
          @count = 1 
          @is_first_score = "true" 
          @previous_score = 9999999999
+
+	 @limit_archmaester_scores_to_ten = 1
   end
 
   def create

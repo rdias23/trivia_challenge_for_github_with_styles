@@ -9,8 +9,8 @@ jQuery(function() {
     }); // end fancybox
 
     $('.level_of_lore_mastery').fancybox({
-        width : '90%',
-        height : '90%',
+        width : '30%',
+        height : '100%',
         titlePosition: 'outside',
 
     }); // end fancybox
