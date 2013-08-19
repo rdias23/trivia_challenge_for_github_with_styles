@@ -1,7 +1,12 @@
+<div class="answer">
+
+
+<div class="centerQuestions">
 <h1>Question <%= @current + 1 %> of <%= @total %></h1>
 <p id="question"><%= @question.text %></p>
+</div>
 
-<div id="feedback-choices">
+<div id="feedback-choices" class="centerQuestions">
   <% @choices.each do |choice| %>
 	 <% if choice.correct %>
 		<p class="correct feedback-choice">
@@ -10,7 +15,7 @@
 	 <% else %>
 		<p class="feedback-choice">
 	 <% end %>
-		<%= choice.text %>
+		<%= choice.text %> 
 	 </p>
   <% end %>
 </div>
@@ -29,3 +34,5 @@
   </div>
 <% end %>
 
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+</div>
